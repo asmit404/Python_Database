@@ -3,10 +3,10 @@ This is a very simple command-line database management system made in python usi
 
 ## Functions
 The application includes four main functions:
-    1. Add Data
-    2. Display Data
-    3. Search Data
-    4. Export Data
+* Add Data
+* Display Data
+* Search Data
+* Export Data
 
 ## In Depth Explanation of Functions
 The first function is to add data to the database. The application takes has three functiions to take names, email addresses and phone numbers as input and store them in lists. This function has some data validation so that user can't enter invaid values. For names, the functions checks if the length of the entered string is zero. For email addresses, the function checks if the entered string has an `@` present in it. For phone numbers, the function checks if the length of the entered *string* is less than 10 digits. The functions loop until a valid value is inputted. One limitation of this application is that it stores this data in a variable, so it is cleared when the instance is closed.
